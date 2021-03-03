@@ -6,17 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css" type="text/css">
 </head>
 
 <body>
     <div class="container">
-        <div class="menu-top">Menu</div>
-        <div class="banner">Bannner</div>
-        <div class="main">
-            <div class="left">Left</div>
-            <div class="right">Right</div>
+        <!-- Phần menu-top -->
+        <div id="menu-top">
+            <ul>
+                <li><a href="#" title="Trang Chu">Trang Chủ</a></li>
+                <li><a href="#" title="Tin Tức">Tin Tức</a></li>
+                <li><a href="#" title="Giới Thiệu">Giới Thiệu</a>
+                    <!-- Phần sub-menu -->
+                    <ul id="sub-menu">
+                        <li><a href="#" title="Ưu Thích">Ưu Thích</a></li>
+                        <li><a href="#" title="Mới Nhất">Mới Nhất</a></li>
+                        <li><a href="#" title="Trang Mới">Trang Mới</a></li>
+                    </ul>
+                    <!-- Phần sub-menu -->
+                </li>
+                <li><a href="#" title="Công Thức">Công Thức</a></li>
+                <li><a href="#" title="Liên Hệ">Liên Hệ</a></li>
+            </ul>
         </div>
-        <div class="footer">Footer</div>
+        <!-- Phần menu-top -->
+
+        <!-- Phần banner -->
+        <div id="banner">
+            <img src="banner.png" alt="Logo_banner">
+
+        </div>
+
+        <!-- Phần main -->
+        <div id="main">
+            <!-- Phần left -->
+            <div id="left">Left</div>
+            <!-- Phần right -->
+            <div id="right">Right</div>
+        </div>
+
+
+        <!-- Phần footer -->
+        <div id="footer">Footer</div>
 
     </div>
 </body>

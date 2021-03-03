@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1000px;
+    margin: 0px auto;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+/* edit menu-top */
+
+#menu-top {}
+
+#menu-top ul {
+    background-color: #0B2F3A;
+    height: 40px;
+    list-style: none;
+    color: #F8E6E0;
+}
+
+#menu-top ul li {
+    display: inline-table;
+    line-height: 40px;
+    border-right: 1px solid #F8E6E0;
+    width: 120px;
+    position: relative;
+}
+
+#menu-top ul li a {
+    display: block;
+    text-decoration: none;
+    color: #F8E6E0;
+    text-align: center;
+}
+
+#menu-top ul li a:hover {
+    background: #0489B1;
+    color: #2E2E2E;
+}
+
+
+/* edit sub-menu */
+
+#menu-top ul li>#sub-menu {
+    display: none;
+    position: absolute;
+}
+
+#menu-top ul li:hover #sub-menu {
+    display: block;
+}
+
+
+/* edit banner */
+
+#banner {
+    height: 300px;
+    width: 1000px;
+    background: #3B170B;
+}
+
+#banner img {
+    height: auto;
+    width: 1000px;
+}
+
+
+/* edit  main bên left */
+
+#main #left {
+    width: 800px;
+    height: 400px;
+    background: #2E2EFE;
+    float: left;
+}
+
+
+/* edit phần main bên right */
+
+#main #right {
+    width: 200px;
+    height: 400px;
+    background-color: #2EFE2E;
+    float: left;
+}
+
+
+/* edit footer */
+
+#footer {
+    background: #2E2E2E;
+    height: 60px;
+    clear: left;
+}
