@@ -64,28 +64,94 @@ body {
 }
 
 #banner img {
-    height: auto;
+    height: 300px;
     width: 1000px;
 }
 
 
 /* edit  main bên left */
 
+#main {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
 #main #left {
-    width: 800px;
-    height: 400px;
-    background: #2E2EFE;
+    width: 760px;
+    height: auto;
+    background: #f4f3ef;
     float: left;
+}
+
+#main #left ul {
+    list-style: none;
+}
+
+#main #left ul li {
+    clear: left;
+    border-bottom: 2px solid #2E2E2E;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#main #left ul li a {
+    text-decoration: none;
+    color: #383632;
+}
+
+#main #left ul li a:hover {
+    color: #1a5b84;
+}
+
+#main #left ul li img {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 10px;
 }
 
 
 /* edit phần main bên right */
 
 #main #right {
-    width: 200px;
+    width: 240px;
     height: 400px;
-    background-color: #2EFE2E;
+    background-color: #fffdf7;
     float: left;
+}
+
+#main #right h4 img {
+    height: 32px;
+    width: 32px;
+}
+
+#main #right h4 {
+    padding: 10px;
+    text-indent: 10px;
+    background-color: #0489B1;
+    color: white;
+    margin-left: 3px;
+}
+
+#main #right ul li {
+    list-style-type: none;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    font-size: 18px;
+    font-family: Tahoma;
+}
+
+#main #right ul li a {
+    text-decoration: none;
+    display: block;
+    transition: all 0.70 ease-in;
+    -moz-transition: all 0.70 ease-in;
+    -webkit-transition: all 0.70 ease-in;
+}
+
+#main #right ul li a:hover {
+    color: #c10736;
+    background: #383632;
 }
 
 
@@ -95,4 +161,17 @@ body {
     background: #2E2E2E;
     height: 60px;
     clear: left;
+    color: #fcf4f6;
+}
+
+#footer span {
+    text-align: center;
+    font-size: 15px;
+    font-family: Tahoma;
+    padding: 1px 380px 1px 380px;
+}
+
+#footer p:last-child {
+    font-size: 14px;
+    margin-top: 4px;
 }
